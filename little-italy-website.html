@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Italy - Authentic Italian Restaurant in Towson, MD</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        :root {
+            --primary: #8B0000;
+            --light: #FFF8F0;
+            --dark: #1A1A1A;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: var(--light);
+        }
+
+        .initials {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-weight: bold;
+            color: var(--primary);
+            z-index: 1000;
+            font-size: 18px;
+        }
+
+        nav {
+            background: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        main {
+            margin-top: 80px;
+            padding: 2rem;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero {
+            background: var(--primary);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            border-radius: 8px;
+        }
+
+        .content-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .menu-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        .hours-list {
+            list-style: none;
+        }
+
+        .hours-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="initials">XYZ</div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://www.visitmaryland.org/city/towson" target="_blank">Visit Towson</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Little Italy</h1>
+            <p>Authentic Italian Cuisine in Towson, Maryland</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Welcome to Little Italy</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Restaurant Interior" style="width:100%; margin:20px 0;">
+            <p>Experience authentic Italian cuisine in the heart of Towson. Our family recipes have been passed down through generations, bringing you the true taste of Italy.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Hours of Operation</h2>
+            <ul class="hours-list">
+                <li>Monday - Thursday: 11:00 AM - 9:00 PM</li>
+                <li>Friday - Saturday: 11:00 AM - 10:00 PM</li>
+                <li>Sunday: 12:00 PM - 8:00 PM</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Little Italy Restaurant</p>
+        <p>123 York Road, Towson, MD 21204</p>
+        <p>Phone: (410) 555-0123</p>
+        <p>&copy; 2024 Little Italy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
